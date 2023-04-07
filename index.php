@@ -2,7 +2,7 @@
 
 //phpinfo();
 
-$connect = new PDO('mysql:host=localhost:3306;dbname=test_db', 'nathan', 'azerty');
+$connect = new PDO('mysql:host=localhost:3306;dbname=test_db', 'Nathan', 'azerty');
 
 if (!$connect) {
         die('Could not connect : ' . mysql_error());
